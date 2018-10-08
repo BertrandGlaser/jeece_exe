@@ -60,11 +60,37 @@ const styles = (theme) => ({
 })
 
 
-const cards = [{
+const cards = [
+    {
     image: Michel,
     title: 'Project n°1',
     description: "In fact that project doesn't realy exist"
-}, 2, 3, 4, 5, 6];
+    },
+    {
+        image: Michel,
+        title: 'Project n°2',
+        description: "In fact that project doesn't realy exist"
+    },
+    {
+        image: Michel,
+        title: 'Project n°3',
+        description: "In fact that project doesn't realy exist"
+    },
+    {
+        image: Michel,
+        title: 'Project n°4',
+        description: "In fact that project doesn't realy exist"
+    },
+    {
+        image: Michel,
+        title: 'Project n°5',
+        description: "In fact that project doesn't realy exist"
+    },
+    {
+        image: Michel,
+        title: 'Project n°6',
+        description: "In fact that project doesn't realy exist"
+    }];
 
 
 class Project extends React.Component {
@@ -108,7 +134,7 @@ class Project extends React.Component {
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size="small" color="primary" onClick={this.handleClick}>
+                                        <Button size="small" color="primary" href={'https://github.com/BertrandGlaser/jeece_exe'}>
                                             View code
                                         </Button>
                                     </CardActions>
