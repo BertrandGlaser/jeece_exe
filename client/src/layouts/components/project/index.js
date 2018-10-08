@@ -20,7 +20,7 @@ const styles = (theme) => ({
         marginLeft: '40px',
         marginRight: '40px',
         width:'70%',
-        height: 'auto'
+        backgroundColor: '#fafafa',
     },
 
     heroUnit: {
